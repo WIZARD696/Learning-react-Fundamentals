@@ -1,0 +1,18 @@
+ul{
+    display: flex;/* display the list items in a row */
+    justify-content: center; /* center the list items horizontally */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    gap: 20px; /* add some space between the list items */
+}
+ul li{
+    list-style: none; /* remove the default bullet points */
+
+}
+div.nav{
+    background-color: var(--nav-bg);
+}
+Link{
+    text-decoration: none; /* remove the underline from the links */
+    color: var(--text-h); /* set the text color to a variable */
+}
